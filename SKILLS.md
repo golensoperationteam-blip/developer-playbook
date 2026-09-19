@@ -62,7 +62,7 @@ Purpose: Track current capability separately from future learning goals. Never p
 | Skill | Current Level | Target Level | Evidence | Next Milestone |
 |---|---:|---:|---|---|
 | Python | 0 — Unverified | 4 — Production Capable | Evidence pending | Build 20 small Python programs and publish a documented repository |
-| Git and GitHub | 1 — Awareness | 4 — Production Capable | developer-playbook repository with structured documentation and commit f12cda0f8de5755979988912e1d114967ef7be37 | Create a branch, make a focused change, open a pull request, review it, merge it, and document the workflow |
+| Git and GitHub | 2 — Guided Practice | 4 — Production Capable | developer-playbook repository with verified feature branch `feature/git-workflow-practice`, PR #1, source commit `d91f4257eec1a4fe6d76502162bdcc71cdf55c9e`, and merge commit `b6547939683a8269dc701d6f911ef30cfb4550fa` | Complete a repeatable feature-branch, pull-request review, merge, and verification workflow independently |
 | Command Line / Bash | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete common navigation, file, Git, and automation workflows |
 | Data Structures and Algorithms | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement and test core data structures; solve 50 problems |
 | Linear Algebra | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement vector and matrix operations with tests |
@@ -92,6 +92,7 @@ Purpose: Track current capability separately from future learning goals. Never p
 |---|---|---|---|---|---|
 | YYYY-MM-DD | Example: Python | GitHub repository | URL or relative path | Brief, factual proof of capability | Pending verification |
 | 2026-09-19 | Git and GitHub | Repository and commit history | https://github.com/golensoperationteam-blip/developer-playbook/commit/f12cda0f8de5755979988912e1d114967ef7be37 | Created and updated a structured AI-ready GitHub knowledge repository using clean commits | Verified |
+| 2026-09-19 | Git and GitHub | Feature branch + pull request workflow | Branch `feature/git-workflow-practice`; PR https://github.com/golensoperationteam-blip/developer-playbook/pull/1; source commit `d91f4257eec1a4fe6d76502162bdcc71cdf55c9e`; merge commit `b6547939683a8269dc701d6f911ef30cfb4550fa` | Created a focused documentation change, used a feature branch, opened and reviewed a PR, merged into `main`, and verified the merged documentation | Verified |
 
 ### For AI Systems
 
