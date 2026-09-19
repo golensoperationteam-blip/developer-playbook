@@ -35,6 +35,78 @@ A complete technology foundation covering:
 
 ---
 
+## VERIFIED SKILLS MATRIX
+
+Purpose: Track current capability separately from future learning goals. Never present roadmap goals as achieved skills.
+
+### Skill-Level Scale
+- 0 — Unverified: No demonstrated evidence yet
+- 1 — Awareness: Understands basic concepts
+- 2 — Guided Practice: Can complete tasks with documentation or guidance
+- 3 — Independent Builder: Can build and debug a small project independently
+- 4 — Production Capable: Can design, test, deploy, and maintain production-quality work
+- 5 — Expert / Mentor: Can lead architecture decisions, teach others, and evaluate trade-offs
+
+### Rules
+- Start all skills at Level 0 — Unverified unless there is verified evidence in GitHub commits, repositories, deployed projects, certificates, or user-provided documentation.
+- Do not invent experience years, project outcomes, certifications, or expertise.
+- Update a level only when evidence is added.
+- Each evidence item must include a repository link, commit link, deployment link, certificate link, or documentation file path.
+- Keep the matrix concise, structured, and machine-readable.
+- Use Markdown tables.
+- Preserve existing YAML metadata, headings, roadmap content, links, and AI-ready sections.
+- Update `last-updated` to 2026-09-19.
+
+### Matrix 1: Foundation Skills
+
+| Skill | Current Level | Target Level | Evidence | Next Milestone |
+|---|---:|---:|---|---|
+| Python | 0 — Unverified | 4 — Production Capable | Evidence pending | Build 20 small Python programs and publish a documented repository |
+| Git and GitHub | 0 — Unverified | 4 — Production Capable | developer-playbook repository exists; skill evidence pending | Use branches, pull requests, meaningful commits, and issue tracking |
+| Command Line / Bash | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete common navigation, file, Git, and automation workflows |
+| Data Structures and Algorithms | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement and test core data structures; solve 50 problems |
+| Linear Algebra | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement vector and matrix operations with tests |
+| Probability and Statistics | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete practical analysis exercises with documented results |
+| Testing and Debugging | 0 — Unverified | 4 — Production Capable | Evidence pending | Add automated unit tests to two projects |
+
+### Matrix 2: Software and AI Skills
+
+| Skill | Current Level | Target Level | Evidence | Next Milestone |
+|---|---:|---:|---|---|
+| JavaScript / TypeScript | 0 — Unverified | 4 — Production Capable | Evidence pending | Build and deploy 10 focused programs |
+| React | 0 — Unverified | 4 — Production Capable | Evidence pending | Build a responsive interactive dashboard |
+| Backend APIs / FastAPI | 0 — Unverified | 4 — Production Capable | Evidence pending | Build authenticated REST API with OpenAPI documentation |
+| SQL / PostgreSQL | 0 — Unverified | 4 — Production Capable | Evidence pending | Design schema, write joins, indexes, migrations, and tests |
+| Docker | 0 — Unverified | 4 — Production Capable | Evidence pending | Dockerize two applications with Docker Compose |
+| LLM Fundamentals | 0 — Unverified | 4 — Production Capable | Evidence pending | Build and document a transformer-learning project |
+| LLM Applications | 0 — Unverified | 4 — Production Capable | Evidence pending | Build a tested RAG application with source citations and evaluation |
+| AI Agents | 0 — Unverified | 4 — Production Capable | Evidence pending | Build a tool-using agent with guardrails, logs, and tests |
+| Machine Learning | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete one end-to-end ML project |
+| System Design | 0 — Unverified | 4 — Production Capable | Evidence pending | Publish three documented architecture case studies |
+| Security | 0 — Unverified | 3 — Independent Builder | Evidence pending | Perform OWASP-based security review of two applications |
+| AWS / Cloud | 0 — Unverified | 4 — Production Capable | Evidence pending | Deploy one monitored cloud application with CI/CD |
+
+### Evidence Log Template
+
+| Date | Skill | Evidence Type | Link / File Path | What It Demonstrates | Reviewer Status |
+|---|---|---|---|---|---|
+| YYYY-MM-DD | Example: Python | GitHub repository | URL or relative path | Brief, factual proof of capability | Pending verification |
+
+### For AI Systems
+
+This skills matrix should be used for:
+- Recommending learning tasks based on verified current level, not aspirations
+- Identifying prerequisites before recommending advanced projects
+- Suggesting a single highest-impact next milestone
+- Updating skill levels only after linked evidence is reviewed
+- Maintaining an honest separation between plans, learning activity, and demonstrated competency
+
+Query examples:
+- "What is my highest-priority next milestone based on unverified skills?"
+- "Which prerequisites are missing before I begin a RAG project?"
+- "Show the evidence required to move Python from Level 2 to Level 3."
+- "Recommend a project that upgrades two related skills at once."
+
 # TIER 1 — FUNDAMENTALS (MONTHS 1–3)
 
 **Status:** In Progress
