@@ -1,117 +1,859 @@
 ---
-title: Skills Inventory
+title: World-Class Polymath Technology Roadmap
 category: developer-playbook
-difficulty: intermediate
+difficulty: comprehensive
 ai-ready: true
 created: 2026-09-19
 last-updated: 2026-09-19
+purpose: Complete skills inventory covering all technology domains from beginner to expert level
 ---
 
-# Skills Inventory
+# World-Class Polymath Technology Roadmap
 
-## Tiering Rules
+## STRATEGIC OVERVIEW
 
-- **Tier 1 — Expert:** 5+ years or demonstrably deep expertise. Do not assign without verified evidence.
-- **Tier 2 — Proficient:** used regularly and can be performed or taught independently.
-- **Tier 3 — Competent:** can implement production tasks with normal reference support.
-- **Tier 4 — Exploring:** actively learning or testing.
+### What I'm Building
 
-> Exact years and certifications are not yet fully verified, so this playbook does not invent them.
+A complete technology foundation covering:
 
-## TIER 1 - EXPERT LEVEL
+- AI / Machine Learning — LLMs, Generative AI, NLP, agents
+- Software Development — full-stack and all application layers
+- System Architecture — design, scalability, patterns
+- Data Engineering — processing, analytics, pipelines
+- Cloud & Infrastructure — AWS, Azure, GCP, DevOps
+- Security & Privacy — defense, encryption, best practices
+- Product & Innovation — shipping and real-world impact
+- Research & Theory — strong technical fundamentals
 
-No skill is formally classified here yet.
+### My Competitive Advantage
 
-## TIER 2 - PROFICIENT
+**Polymath Developer** — the target profile is someone who can understand technology across layers, design systems end-to-end, apply AI/ML to real problems, write production-quality software, architect secure and scalable systems, ship products, and continuously learn.
 
-### E-commerce Operations
-- **Years:** Not documented
-- **Key projects:** Shopify, Amazon, IndiaMART workflows
-- **Certifications:** Not documented
-- **Capability:** catalog operations, listings, product data, marketplace execution.
+**Target timeline:** 18–24 months for broad world-class competency.
 
-### Product Content & Catalog Management
-- **Years:** Not documented
-- **Key projects:** marketplace product listings and specification workflows
-- **Certifications:** Not documented
-- **Capability:** titles, attributes, specifications, categorization, structured product information.
+> This is a roadmap and target state, not a claim that every listed capability is already mastered. Status labels distinguish current progress from planned learning.
 
-### AI-Assisted Productivity & Prompting
-- **Years:** Not documented
-- **Key projects:** AI-assisted operations, documentation, and workflow design
-- **Certifications:** Not documented
-- **Capability:** prompt design, task decomposition, context structuring, tool-assisted execution.
+---
 
-### GitHub Knowledge Management
-- **Years:** Not documented
-- **Key projects:** [[../universal-ai-os]] and [[README]]
-- **Certifications:** Not documented
-- **Capability:** repository organization, Markdown documentation, AI-ready knowledge structures.
+# TIER 1 — FUNDAMENTALS (MONTHS 1–3)
 
-## TIER 3 - COMPETENT
+**Status:** In Progress
 
-### Shopify Operations
-- **Years:** Not documented
-- **Key projects:** commerce-store operations
-- **Certifications:** Not documented
-- **Capability:** product/catalog and operational workflows.
+Foundation-building phase. These subjects support every later specialization.
 
-### Amazon Marketplace Operations
-- **Years:** Not documented
-- **Key projects:** listing and compliance workflows
-- **Certifications:** Not documented
-- **Capability:** listing data, product attributes, marketplace operations.
+## 1.1 Core Computer Science
 
-### IndiaMART Operations
-- **Years:** Not documented
-- **Key projects:** seller catalog and category/keyword workflows
-- **Certifications:** Not documented
-- **Capability:** catalog maintenance and product discovery workflows.
+### Mathematics Foundation
 
-### Google Sheets & Structured Data
-- **Years:** Not documented
-- **Key projects:** operational data and inventory/listing workflows
-- **Certifications:** Not documented
-- **Capability:** structured tables, validation, operational analysis.
+#### Linear Algebra
+- Vectors, matrices, transformations
+- **Status:** Starting
+- **Timeline:** 2 weeks
+- **Resource:** 3Blue1Brown — *Essence of Linear Algebra*
+- **Proof:** Implement and test matrix operations
 
-### Canva & Visual Content
-- **Years:** Not documented
-- **Key projects:** product and marketing creative workflows
-- **Certifications:** Not documented
-- **Capability:** practical design production and iteration.
+#### Calculus & Optimization
+- Derivatives, gradients, optimization
+- **Status:** Planned
+- **Timeline:** 2 weeks
 
-### Documentation & Process Design
-- **Years:** Not documented
-- **Key projects:** GitHub knowledge repositories
-- **Certifications:** Not documented
-- **Capability:** structured Markdown, SOP thinking, reusable context.
+#### Probability & Statistics
+- Distributions, Bayes, hypothesis testing
+- **Status:** Planned
+- **Timeline:** 3 weeks
+- **Why:** Essential for ML and data work
 
-## TIER 4 - EXPLORING
+#### Discrete Mathematics & Algorithms
+- Set theory, logic, graph theory, Big O
+- **Status:** Planned
+- **Timeline:** 3 weeks
 
-- Software engineering depth and production coding
-- System architecture and design patterns
-- AI agents and orchestration
-- Advanced automation
-- Cloud infrastructure
-- Testing engineering
-- Security engineering
-- Knowledge graphs and AI retrieval architectures
+### Data Structures & Algorithms
 
-Promote skills only when project evidence supports the change.
+#### Fundamental Data Structures
+- Arrays, lists, stacks, queues, trees, graphs, hash tables
+- **Status:** Starting
+- **Timeline:** 2 weeks
+- **Proof:** Implement and test each
+
+#### Essential Algorithms
+- Sorting, searching, graph algorithms, dynamic programming
+- **Status:** Planned
+- **Timeline:** 3 weeks
+
+#### Problem Solving
+- LeetCode and coding challenges
+- **Goal:** 50 easy-to-medium problems
+- **Timeline:** 2 weeks
+- **Proof:** Link solutions from GitHub
+
+### Computer Architecture & Operating Systems
+
+- CPU, memory, cache concepts
+- Processes and threads
+- Memory management
+- **Status:** Planned
+- **Timeline:** 2 weeks
+
+## 1.2 Programming Fundamentals
+
+### Core Concepts
+
+- Variables and data types
+- Control flow
+- Functions and recursion
+- Closures
+- Object-oriented programming
+- Functional programming
+- Error handling
+- Debugging
+- **Timeline:** 2 weeks
+
+### Programming Languages
+
+#### Python
+- **Status:** Starting
+- **Timeline:** 2 weeks
+- **Proof:** Build 20 small programs
+- **Focus:** Basics, functions, OOP, common libraries
+- **Practice:** Data-processing scripts, algorithms, small tools
+
+#### JavaScript / TypeScript
+- **Status:** Planned
+- **Timeline:** 2 weeks
+- **Proof:** Build 10 programs
+- **Focus:** ES6+, async/await, Node.js, DOM basics
+
+#### Go or Java
+- **Status:** Planned
+- **Timeline:** 2 weeks per language
+- **Go rationale:** Systems programming and concurrency
+- **Java rationale:** Enterprise systems and scalability
+
+#### C or Rust
+- **Status:** Future
+- **Why:** Deeper systems understanding and performance engineering
+
+## 1.3 Development Tools & Workflows
+
+### Git
+- **Status:** Starting
+- **Timeline:** 1 week
+- **Proof:** Active GitHub contributions
+- **Practice:** Open-source contribution
+
+### Development Environment
+- VS Code
+- Bash / Zsh
+- Package managers
+- **Timeline:** 1 week
+
+### Testing & Debugging
+- Print debugging
+- Breakpoints
+- Error-message analysis
+- Unit-testing basics
+- **Timeline:** 1 week
+
+**Tier 1 outcome:** Solid computer-science foundation and confidence with Git and core development tools.
+
+---
+
+# TIER 2 — CORE SPECIALIZATIONS (MONTHS 4–9)
+
+**Status:** Planned — begin after Tier 1 milestones are substantially complete.
+
+## 2.1 Artificial Intelligence & Machine Learning
+
+### 🔥 LLM Fundamentals — Critical Priority
+
+#### Transformer Architecture
+- **Status:** Starting
+- **Timeline:** 2 weeks
+- Attention mechanism
+- Self-attention
+- Multi-head attention
+- **Resource:** *Attention Is All You Need*
+- **Proof:** Implement a transformer from scratch
+
+#### Large Language Models
+- GPT architecture and variants
+- Claude and Llama model families
+- Instruction tuning
+- RLHF
+- Zero-shot prompting
+- Few-shot prompting
+- Chain-of-thought concepts
+- In-context learning
+- **Timeline:** 2 weeks
+
+#### LLM Capabilities & Limitations
+- Reasoning and planning
+- Hallucination
+- Confidence calibration
+- Context-window constraints
+- Multimodal models
+- **Timeline:** 1 week
+
+#### LLM Applications
+
+Build:
+1. Advanced-prompting chatbot
+2. RAG system
+3. Tool-integrated AI agent
+
+**Timeline:** 2 weeks
+
+### 🔥 AI Agents & Automation — Critical Priority
+
+#### Agent Concepts
+- Planning and reasoning loops
+- Tool use and function calling
+- Memory and context management
+- Reflection and error handling
+- **Timeline:** 1 week
+
+#### LLM APIs
+- OpenAI APIs
+- Anthropic APIs
+- Other major model APIs
+- Function calling
+- Token management
+- Cost optimization
+- Retry and error handling
+- **Timeline:** 1 week
+
+#### Multi-Agent Systems
+- Agent coordination
+- Agent communication
+- Shared and isolated state
+- **Timeline:** 1 week
+
+#### Agent Applications
+
+Build:
+1. Data-analysis agent
+2. Code-writing/testing/debugging assistant
+3. Multi-agent system
+
+**Timeline:** 2 weeks
+
+### Machine Learning Fundamentals
+
+#### Supervised Learning
+- Linear and polynomial regression
+- Decision-tree regression
+- Logistic regression
+- Decision trees
+- SVM
+- Random forest
+- Accuracy, precision, recall, F1, ROC-AUC
+- Cross-validation
+- Hyperparameter tuning
+- **Timeline:** 2 weeks
+
+#### Unsupervised Learning
+- K-means
+- Hierarchical clustering
+- DBSCAN
+- Gaussian mixture models
+- PCA
+- t-SNE
+- UMAP
+- Anomaly detection
+- **Timeline:** 1 week
+
+#### Deep Learning
+- Neural networks from scratch
+- Backpropagation
+- Gradient descent
+- CNNs for vision
+- RNNs and LSTMs for sequences
+- **Timeline:** 3 weeks
+
+#### Practice & Proof
+- Minimum 3 Kaggle competitions
+- Compare multiple models
+- Document experiments and learnings
+- **Timeline:** 3 weeks
+
+### MLOps & Deployment
+
+- Model training and evaluation
+- Model/version management
+- Hyperparameter optimization
+- DVC
+- Experiment tracking
+- Model inference optimization
+- **Timeline:** 2 weeks
+
+**Deliverable:** Complete ML project from data → model → deployment → monitoring.
+
+---
+
+## 2.2 Full-Stack Web Development
+
+### Frontend
+
+#### HTML/CSS
+- Semantic HTML
+- Flexbox and Grid
+- CSS variables
+- Responsive/mobile-first design
+- Accessibility: WCAG and ARIA
+- **Timeline:** 1 week
+
+#### Advanced JavaScript
+- ES6+
+- Destructuring and spread
+- Arrow functions and classes
+- Async/await and Promises
+- DOM and event handling
+- Fetch
+- Storage APIs
+- WebSocket
+- **Timeline:** 1 week
+
+#### Frontend Frameworks
+
+Choose React or Vue, with optional secondary exposure:
+
+- Component architecture
+- Lifecycle
+- State management
+- Routing
+- Build optimization
+- Performance
+
+**Timeline:** 3 weeks
+
+#### Frontend Projects
+1. Interactive analytics dashboard
+2. Real-time collaborative application
+3. Complex validated form/state-management application
+
+**Timeline:** 2 weeks  
+**Proof:** Public repositories with deployed applications.
+
+### Backend
+
+Choose one primary backend framework while understanding alternatives.
+
+#### Python FastAPI
+- Routing
+- Middleware
+- Dependency injection
+- Authentication/authorization
+- SQLAlchemy integration
+- REST/OpenAPI
+- **Timeline:** 2 weeks
+
+#### Node.js Express/NestJS
+- Routing
+- Middleware
+- Authentication
+- ORM/database integration
+- **Timeline:** 2 weeks
+
+#### Go Gin/Echo
+- Go web idioms
+- Framework structure
+- Goroutines/concurrency
+- Database integration
+- **Timeline:** 2 weeks
+
+### Databases
+
+#### SQL
+- CRUD
+- Joins
+- Aggregations
+- Subqueries
+- Indexing
+- Query optimization
+- Transactions and ACID
+- Window functions
+- **Timeline:** 2 weeks
+
+#### NoSQL
+- MongoDB
+- Firebase/Firestore
+- Redis
+- DynamoDB
+- **Timeline:** 1 week
+
+#### Database Design
+- Schema design
+- Normalization vs denormalization
+- Sharding
+- Replication
+- Failover
+- **Timeline:** 1 week
+
+### Full-Stack Integration
+- Authentication flows
+- Client/server state synchronization
+- Cross-layer error handling
+- Performance optimization
+- **Timeline:** 1 week
+
+**Deliverable:** Complete full-stack application shipped and deployed.
+
+---
+
+## 2.3 System Architecture & Design
+
+### System Design Fundamentals
+
+#### Scalability
+- Vertical vs horizontal scaling
+- Load balancing
+- Client/server/CDN caching
+- Database replication
+- Database sharding
+- **Timeline:** 2 weeks
+
+#### Architecture Patterns
+- Monolith
+- Microservices
+- Event-driven architecture
+- Service-oriented architecture
+- Serverless/FaaS
+- **Timeline:** 2 weeks
+
+#### Design Patterns
+- Creational: Singleton, Factory, Builder, Prototype
+- Structural: Adapter, Decorator, Facade, Proxy
+- Behavioral: Observer, Strategy, Command, State, Chain of Responsibility
+- **Timeline:** 1 week
+
+#### System Design Practice
+
+Design and document:
+1. E-commerce platform for 1M users
+2. Real-time chat system at WhatsApp-scale requirements
+3. Analytics pipeline for petabyte-scale data
+
+**Proof:** Architecture diagrams plus explicit trade-off reasoning.  
+**Timeline:** 2 weeks
+
+### Distributed Systems
+
+- CAP theorem
+- Consistency models
+- Replication
+- Sharding
+- Raft and Paxos
+- Distributed transactions
+- Fault tolerance
+- Recovery
+- Network partitions
+- Clock synchronization
+- Message ordering
+- State consistency
+- Failure detection
+- **Timeline:** 2 weeks
+
+**Deliverable:** Deep understanding of distributed-system trade-offs.
+
+---
+
+## 2.4 Data Engineering
+
+### ETL / ELT
+- Batch ingestion
+- Streaming ingestion
+- Real-time processing
+- Transformation
+- Cleansing
+- Validation
+- Loading strategies
+- **Timeline:** 2 weeks
+
+### Stream Processing
+- Event streaming
+- Kafka
+- Kinesis
+- RabbitMQ
+- Spark Streaming
+- Flink
+- Kafka Streams
+- Real-time analytics
+- **Timeline:** 2 weeks
+
+### Data Warehousing
+- OLAP vs OLTP
+- Warehouse design
+- Star schema
+- Snowflake schema
+- Query optimization
+- Redshift
+- BigQuery
+- Snowflake
+- ClickHouse
+- **Timeline:** 2 weeks
+
+### Data Projects
+1. Source → transform → warehouse ETL pipeline
+2. Real-time streaming analytics pipeline
+
+**Proof:** GitHub repositories with architecture and operational documentation.  
+**Timeline:** 2 weeks
+
+---
+
+## 2.5 Cloud Platforms & DevOps
+
+### AWS — Primary Cloud Learning Path
+
+#### Compute
+- EC2
+- Auto Scaling
+- ECS
+- Fargate
+- Lambda
+- API Gateway
+- **Timeline:** 1 week
+
+#### Storage & Databases
+- S3
+- RDS
+- DynamoDB
+- Redshift
+- ElastiCache
+- **Timeline:** 1 week
+
+#### Networking & Security
+- VPC
+- Security Groups
+- NACLs
+- ALB/NLB
+- CloudFront
+- Route 53
+- IAM
+- KMS
+- **Timeline:** 1 week
+
+#### Monitoring & Messaging
+- CloudWatch
+- X-Ray
+- SNS
+- SQS
+- Cost optimization
+- **Timeline:** 1 week
+
+### Containerization
+
+#### Docker
+- Images and containers
+- Dockerfiles
+- Compose
+- Volumes
+- Networking
+- **Timeline:** 1 week
+- **Proof:** Multiple containerized applications
+
+#### Kubernetes
+- Pods
+- Deployments
+- Services
+- ConfigMaps
+- Secrets
+- Persistent storage
+- Networking
+- Helm
+- **Timeline:** 2 weeks
+
+### Infrastructure as Code
+
+Choose Terraform or CloudFormation:
+
+- Resource definitions
+- State management
+- Modules
+- Reusability
+- Environment management
+- **Timeline:** 1 week
+
+### CI/CD
+
+GitHub Actions or GitLab CI:
+
+- Build automation
+- Automated tests
+- Deployment workflows
+- Secrets management
+- **Timeline:** 1 week
+
+### Observability & Operations
+
+- Prometheus metrics
+- ELK logging
+- Alerting
+- Dashboards
+- On-call practices
+- Runbooks
+- Postmortems
+- **Timeline:** 2 weeks
+
+**Deliverable:** Deploy 3+ applications end-to-end with CI/CD and monitoring.
+
+---
+
+## 2.6 Security & Privacy
+
+### Application Security
+
+#### OWASP Top 10
+
+Study and practice:
+- Injection
+- Broken authentication
+- Sensitive-data exposure
+- XXE
+- Broken access control
+- XSS
+- CSRF
+- Vulnerable components
+- Insufficient logging/monitoring
+- Security misconfiguration
+
+**Timeline:** 2 weeks
+
+#### Secure Coding
+- Input validation
+- Sanitization
+- Output encoding
+- Secure storage/transmission
+- Safe error handling
+- **Timeline:** 1 week
+
+### Cryptography
+
+- Symmetric encryption: AES
+- Asymmetric cryptography: RSA, ECC
+- Hashing
+- bcrypt
+- Argon2
+- Digital signatures
+- **Timeline:** 2 weeks
+
+### Authentication & Authorization
+
+- OAuth 2.0
+- OpenID Connect
+- JWT handling
+- SAML
+- MFA
+- Session management
+- **Timeline:** 1 week
+
+### Network Security
+
+- Firewalls
+- WAF
+- Proxies
+- Reverse proxies
+- TLS/SSL
+- VPNs
+- Secure tunnels
+- DDoS protection
+- **Timeline:** 1 week
+
+### Privacy & Compliance
+
+- GDPR concepts
+- CCPA concepts
+- Data retention
+- Privacy by design
+- **Timeline:** 1 week
+
+### Compliance & Auditing
+
+- Audit logging
+- Access-control audits
+- Vulnerability management
+- SOC 2 concepts
+- ISO 27001 concepts
+- **Timeline:** 1 week
+
+**Deliverable:** Security audit and hardening documentation for 2 applications.
+
+---
+
+# TIER 3 — ADVANCED SPECIALIZATIONS (MONTHS 10–18)
+
+**Status:** Planned after Tier 2.
+
+Choose 2–3 deep-focus areas based on demonstrated performance, interest, and project evidence.
+
+## Option A — Advanced AI/ML Research
+
+- Cutting-edge model architectures
+- Training optimization
+- Multimodal learning
+- AI safety and alignment
+- Research publication
+- **Focus:** Stay current with frontier technology.
+
+## Option B — Infrastructure & Scale
+
+- Billion-user-scale design exercises
+- Global distributed systems
+- Cost optimization
+- Disaster recovery
+- Chaos engineering
+- **Focus:** Large-scale infrastructure.
+
+## Option C — Product & Shipping
+
+- Product lifecycle
+- User research
+- Validation
+- Go-to-market
+- Metrics and analytics
+- Community building
+- **Focus:** Ship products that matter.
+
+## Option D — Security Specialization
+
+- Advanced threat modeling
+- Security research
+- Bug bounty practice
+- Zero-trust architecture
+- Cryptography research
+- **Focus:** Build highly secure systems.
+
+---
+
+# TIER 4 — MASTERY & THOUGHT LEADERSHIP (MONTHS 19–24)
+
+**Status:** Future
+
+## Mastery Indicators
+
+- 20+ meaningful production projects shipped
+- Open-source contributions
+- Technical speaking
+- Research papers or substantial technical articles
+- Mentoring
+- Demonstrable industry recognition
+
+These are **target indicators**, not current claims.
+
+---
+
+# LEARNING METHODOLOGY
+
+## Daily Practice — 1–2 Hours
+
+1. **Theory — 30 min:** study and understand concepts
+2. **Practice — 60 min:** code, build, experiment
+3. **Documentation — 30 min:** explain and refine knowledge
+
+## Weekly Goals
+
+- Complete one conceptual domain
+- Build one project or implement one system
+- Write comprehensive documentation
+- Review and refine understanding
+
+## Accuracy & Verification
+
+- Never guess when practical verification is possible.
+- Document sources and references.
+- Test important claims practically.
+- Be explicit about unknowns.
+- Update knowledge when new evidence contradicts previous understanding.
+- Prefer authoritative and proven resources.
+
+## Progress Tracking
+
+Maintain:
+- Skills matrix with current levels from 0–5
+- Project portfolio and links
+- Learning timeline
+- Open-source contributions
+- Articles and documentation
+
+---
+
+# SUCCESS FACTORS
+
+## 1. Accuracy First
+- Test unfamiliar territory.
+- Verify sources.
+- Explicitly admit unknowns.
+
+## 2. Depth Over Breadth
+- Complete concepts.
+- Understand trade-offs.
+- Know when to use each approach.
+- Explain concepts clearly.
+
+## 3. Practical Application
+- Build rather than only read.
+- Ship real systems.
+- Collect feedback.
+- Iterate based on evidence.
+
+## 4. Continuous Learning
+- Track technology changes.
+- Follow credible technical sources.
+- Participate in technical communities.
+- Contribute where useful.
+
+## 5. Documentation
+- Document learning.
+- Record decisions.
+- Share useful knowledge.
+- Build reusable AI context.
+
+---
+
+# ROADMAP STATUS MODEL
+
+Use these statuses consistently:
+
+- **Starting** — actively beginning the topic.
+- **In Progress** — currently learning/building.
+- **Planned** — scheduled but not started.
+- **Practiced** — completed meaningful exercises.
+- **Production Proven** — used successfully in a real production context.
+- **Advanced** — demonstrated depth through multiple projects.
+- **Mastery Candidate** — sustained depth, teaching, research, or significant real-world evidence.
+
+A topic should move upward based on evidence, not time alone.
+
+---
 
 ## For AI Systems
 
 This knowledge should be used for:
-- Selecting appropriate tools and implementation depth
-- Distinguishing established skills from learning areas
-- Identifying gaps before proposing complex solutions
+- Creating personalized learning plans
+- Recommending projects at an appropriate difficulty
+- Validating understanding at each level
+- Identifying knowledge gaps
+- Suggesting resources and next steps
+- Tracking progress against the roadmap
+- Connecting multiple technology domains into integrated projects
+- Avoiding premature claims of expertise
 
 Query examples:
-- "Based on my skills, recommend a tool for [problem]"
-- "Design a system using my preferred patterns"
-- "What's my expertise level in [domain]?"
+- "Based on my progress in Tier 1, what should I focus on next?"
+- "Explain [concept] in the context of my learning journey."
+- "Design a project combining [multiple skills]."
+- "Verify my understanding of [domain]."
+- "What am I missing before moving to the next tier?"
+- "Recommend a resource for [topic] at my current level."
+- "Create a weekly learning schedule for [domain]."
+- "Update my roadmap based on this project evidence."
 
-Related topics:
-- [[PROJECTS]]
-- [[TECH-STACK]]
-- [[BEST-PRACTICES/ARCHITECTURE]]
+## Related Knowledge
+
+- [[PROJECTS.md]] — projects to build and evidence to collect
+- [[TECH-STACK.md]] — technology preferences and rationale
+- [[BEST-PRACTICES/README.md]] — engineering standards
+- [[../ai-knowledge-base]] — planned deep AI/ML knowledge base
+- [[../architecture-reference]] — planned system-design knowledge base
+- [[../learning-resources]] — planned curated learning resources
