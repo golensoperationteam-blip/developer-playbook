@@ -62,7 +62,7 @@ Purpose: Track current capability separately from future learning goals. Never p
 | Skill | Current Level | Target Level | Evidence | Next Milestone |
 |---|---:|---:|---|---|
 | Python | 0 — Unverified | 4 — Production Capable | Evidence pending | Build 20 small Python programs and publish a documented repository |
-| Git and GitHub | 0 — Unverified | 4 — Production Capable | developer-playbook repository exists; skill evidence pending | Use branches, pull requests, meaningful commits, and issue tracking |
+| Git and GitHub | 1 — Awareness | 4 — Production Capable | developer-playbook repository with structured documentation and commit f12cda0f8de5755979988912e1d114967ef7be37 | Create a branch, make a focused change, open a pull request, review it, merge it, and document the workflow |
 | Command Line / Bash | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete common navigation, file, Git, and automation workflows |
 | Data Structures and Algorithms | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement and test core data structures; solve 50 problems |
 | Linear Algebra | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement vector and matrix operations with tests |
@@ -91,6 +91,7 @@ Purpose: Track current capability separately from future learning goals. Never p
 | Date | Skill | Evidence Type | Link / File Path | What It Demonstrates | Reviewer Status |
 |---|---|---|---|---|---|
 | YYYY-MM-DD | Example: Python | GitHub repository | URL or relative path | Brief, factual proof of capability | Pending verification |
+| 2026-09-19 | Git and GitHub | Repository and commit history | https://github.com/golensoperationteam-blip/developer-playbook/commit/f12cda0f8de5755979988912e1d114967ef7be37 | Created and updated a structured AI-ready GitHub knowledge repository using clean commits | Verified |
 
 ### For AI Systems
 
