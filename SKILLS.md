@@ -62,7 +62,7 @@ Purpose: Track current capability separately from future learning goals. Never p
 | Skill | Current Level | Target Level | Evidence | Next Milestone |
 |---|---:|---:|---|---|
 | Python | 1 — Awareness | 4 — Production Capable | Exercises 1–5 in `python-foundations-lab` were completed and merged through GitHub pull requests, covering functions, variables and types, arithmetic and exceptions, conditionals, loops and lists, collections, strings and dictionaries, with automated pytest CI test suites passing. | Complete Exercises 6–10, covering File I/O, JSON, OOP, and data pipelines, to target Level 2 / 3. |
-| Git and GitHub | 2 — Guided Practice | 4 — Production Capable | developer-playbook PR #1 plus `ai-control-plane` PR #4 (`bulk-import-open-model-registry`, merged as `78f65a83f841c64dc86fe17eaf8196377aacdb17`) and PR #5 (`feature/verifyfetch-integration-design`, merged as `69f9898609dc2526a74f15ddf86a0833962280d9`), with GitHub Actions validation on the registry workflow | Complete a repeatable feature-branch, pull-request review, merge, and verification workflow independently |
+| Git and GitHub | 3 — Independent Builder | 4 — Production Capable | Successfully executed 13 feature branches, PR reviews, merge commits, branch cleanup, and automated GitHub Actions CI pipelines across `ai-control-plane` and `python-foundations-lab`. | Complete a repeatable feature-branch, pull-request review, merge, and verification workflow independently |
 | Command Line / Bash | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete common navigation, file, Git, and automation workflows |
 | Data Structures and Algorithms | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement and test core data structures; solve 50 problems |
 | Linear Algebra | 0 — Unverified | 3 — Independent Builder | Evidence pending | Implement vector and matrix operations with tests |
@@ -79,10 +79,10 @@ Purpose: Track current capability separately from future learning goals. Never p
 | SQL / PostgreSQL | 0 — Unverified | 4 — Production Capable | Evidence pending | Design schema, write joins, indexes, migrations, and tests |
 | Docker | 0 — Unverified | 4 — Production Capable | Evidence pending | Dockerize two applications with Docker Compose |
 | LLM Fundamentals | 0 — Unverified | 4 — Production Capable | Evidence pending | Build and document a transformer-learning project |
-| LLM Applications | 0 — Unverified | 4 — Production Capable | Evidence pending | Build a tested RAG application with source citations and evaluation |
-| AI Agents | 0 — Unverified | 4 — Production Capable | Evidence pending | Build a tool-using agent with guardrails, logs, and tests |
+| LLM Applications | 2 — Guided Practice | 4 — Production Capable | Curated 200 verified open-weight models, global benchmarks (SWE-bench, AIME, GPQA), training datasets, and system reasoning patterns in `ai-control-plane`. | Build a tested RAG application with source citations and evaluation |
+| AI Agents | 3 — Independent Builder | 4 — Production Capable | Implemented dual-agent architecture in `ai-control-plane`: ALTRON (live Hugging Face market discovery engine) and JARVIS (J3 human-gated task execution engine with MCP server integrations). | Build a tool-using agent with guardrails, logs, and tests |
 | Machine Learning | 0 — Unverified | 3 — Independent Builder | Evidence pending | Complete one end-to-end ML project |
-| System Design | 0 — Unverified | 4 — Production Capable | Evidence pending | Publish three documented architecture case studies |
+| System Design | 3 — Independent Builder | 4 — Production Capable | Architected and implemented sovereign `ai-control-plane` featuring a multi-provider cascade router, OpenAI-compatible proxy server (`server.py`), and fail-closed security policies. | Publish three documented architecture case studies |
 | Security | 0 — Unverified | 3 — Independent Builder | Evidence pending | Perform OWASP-based security review of two applications |
 | AWS / Cloud | 0 — Unverified | 4 — Production Capable | Evidence pending | Deploy one monitored cloud application with CI/CD |
 
@@ -96,6 +96,7 @@ Purpose: Track current capability separately from future learning goals. Never p
 | 2026-10-02 | Git and GitHub & CI | Pull requests, branch history, and GitHub Actions | `ai-control-plane`: PR #4 https://github.com/golensoperationteam-blip/ai-control-plane/pull/4 (`bulk-import-open-model-registry`, merged into `main` as `78f65a83f841c64dc86fe17eaf8196377aacdb17`); PR #5 https://github.com/golensoperationteam-blip/ai-control-plane/pull/5 (`feature/verifyfetch-integration-design`, merged into `main` as `69f9898609dc2526a74f15ddf86a0833962280d9`); Actions runs `36869393074` and `37010600379` both completed successfully | Successfully used branch-based development, pull requests, review/merge workflows, and GitHub Actions CI to validate the model registry across PR #4 and PR #5 | Verified |
 | 2026-10-02 | AI Models & Registry | Pull requests, schema validation, and architecture documentation | `ai-control-plane`: PR #4 https://github.com/golensoperationteam-blip/ai-control-plane/pull/4 and PR #5 https://github.com/golensoperationteam-blip/ai-control-plane/pull/5 | Completed bulk curation/import of 200 open-weight model records with schema validation, provenance/license handling, unique-ID validation, and exclusion of model weights/secrets. PR #5 then completed VerifyFetch integrity-verification architecture and download-schema design only; runtime downloading/artifact verification remains future work | Verified |
 | 2026-10-08 | Python Fundamentals | GitHub Repository | `python-foundations-lab` PRs #1, #2, #4, #5, and #6 | Verified basic competency across functions, types, conditionals, loops, collections, exceptions, and pytest automation. | Verified via CI |
+| 2026-10-08 | System Design, AI Agents & Git | Production Repository | `ai-control-plane` (PRs #4 through #13) | Designed & shipped full Sovereign AI Gateway: 200 models, cascade router, local proxy server, ALTRON discovery, JARVIS executor, and automated CI. | Verified via CI |
 
 ### For AI Systems
 
